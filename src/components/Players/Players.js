@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ListOfPlayers } from './ListOfPlayers'
+import { ListOfPlayers } from '../Share/ListOfPlayers'
 export default class Players extends Component {
   render() {
     return (
