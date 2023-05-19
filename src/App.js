@@ -1,17 +1,14 @@
-import Footer from './components/Footer/Footer';
-import './components/Footer/Footer.css';
-import Navigation from './components/Navigation/Navigation';
-import './components/Navigation/Navigation.css';
-import './components/Players/Players.css';
-import Main from './components/PlayersPresentation/Main';
-
+import Footer from './components/Footer';
+import Main from './components/Main';
+import Navigation from './components/Navigation';
+import './components/style.css';
 
 function App() {
   return (
     <div className="App">
-        <Navigation />
-        <Main />
-        <Footer />
+      <Navigation />
+      <Main />
+      <Footer />
     </div>
   );
 }
