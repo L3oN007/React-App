@@ -1,24 +1,23 @@
 import React, { Component } from 'react'
 
 export default class Navigation extends Component {
-  render() {
-    return (
-      <header>
-        <nav>
-          <ul>
-            <div class="logo">
-              <a href="#Home"><img src='./assets/images/football-club.png' alt='logo' /></a>
-            </div>
-            <li><a className='active' href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="user-profile">
-          <a href="#Home"><img src='./assets/images/avatar.jpg' alt='avatar' /></a>
-        </div>
-      </header>
-    )
-  }
+    render() {
+        return (
+            <nav className="navbar">
+                <div className="container">
+                    <a className="navbar-logo" href="#Home">Nét Phíc</a>
+                    <ul className="navbar-menu">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Home">TV Shows</a></li>
+                        <li><a href="#Home">Movies</a></li>
+                        <li><a href="#Home">New Releases</a></li>
+                        <li><a href="#Home">My List</a></li>
+                    </ul>
+                    <div className="navbar-profile">
+                        <img src="./assets/images/avatar.jpg" alt="Profile" className="navbar-profile-img" />
+                    </div>
+                </div>
+            </nav>
+        )
+    }
 }

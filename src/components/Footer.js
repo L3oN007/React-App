@@ -7,13 +7,14 @@ export default class Footer extends Component {
                 <div className="container" id='Footer'>
                     <div className="footer-content">
                         <div className="footer-logo">
-                            <a href="#Home">Dờ Phút BallClub</a>
+                            <a href="#Home">Nét Phíc</a>
                         </div>
                         <ul className="footer-links">
                             <li><a href="#Home">Home</a></li>
-                            <li><a href="#Home">News</a></li>
-                            <li><a href="#Home">About</a></li>
-                            <li><a href="#Home">Contact</a></li>
+                            <li><a href="#Home">TV Shows</a></li>
+                            <li><a href="#Home">Movies</a></li>
+                            <li><a href="#Home">New Releases</a></li>
+                            <li><a href="#Home">My List</a></li>
                         </ul>
                     </div>
                     <p className="footer-text">&copy; 2023, FER201m - Vu Minh Nhat</p>
