@@ -9,7 +9,7 @@ export default function PlayersPresentation({ players }) {
                         <img src={player.img} alt='' />
                         <h3>{player.name}</h3>
                         <p className='title'>Club: {player.club}</p>
-                        <p><button>Detail</button></p>
+                        <p><button >Detail</button></p>
                     </div>
                 </div>
             ))}</div>

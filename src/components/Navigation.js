@@ -7,7 +7,7 @@ export default class Navigation extends Component {
         <nav>
           <ul>
             <div class="logo">
-              <a href="#Home"><img src='./assets/images/football-club.png' alt='logo' /></a>
+              <a href="#Home"><img src='./assets/images/logo.png' alt='logo' /></a>
             </div>
             <li><a className='active' href="#home">Home</a></li>
             <li><a href="#news">News</a></li>
